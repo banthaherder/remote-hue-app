@@ -18,7 +18,7 @@ Where ```HASH1 = MD5(“CLIENTID” + “:” + “REALM” + “:” + “CLIEN
 8. Make a POST to https:api.meethue.com/oauth2/token?code=$CODE&grant_type=authorization_code
 Authorization: Digest username="$CLIENT_ID", realm="oauth2_client@api.meethue.com", nonce="$NONCE", uri="/oauth2/token", response="$RESPONSE"
 
-9. Basic Auth is a lot simpler... But I 
+9. Basic Auth is a lot simpler...
 Make a POST on https:api.meethue.com/oauth2/token?code=$CODE&grant_type=authorization_code
 Authorization: Basic <base64(clientid:clientsecret)>
 
