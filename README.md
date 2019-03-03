@@ -1,5 +1,5 @@
 # Philips Hue Remote API Gopher Edition
-In order to attain remote api access to Philip Hue bulbs an application must be stood up and authenticated against as per the [Hue Remote API Authentication Guide](https://developers.meethue.com/develop/hue-api/remote-authentication/). This golang implementation handles the auth process and produces a n access token to use as a bearer token in remote requests.
+In order to attain remote api access to Philip Hue bulbs an application must be stood up and used to authenticate against the Hue Remote API as per the [Hue Remote API Authentication Guide](https://developers.meethue.com/develop/hue-api/remote-authentication/). This golang implementation handles the auth process and produces an access token to use as a bearer token in remote requests.
 
 ![network gopher](img/network-gopher.png)
 
